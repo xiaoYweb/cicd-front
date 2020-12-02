@@ -5,7 +5,7 @@ import axios from 'axios';
 const Home = (props: any) => {
   const [list, setList] = useState([])
   useEffect(() => {
-    axios.get('http://localhost:4000/api/users').then(res => {
+    axios.get('http://localhost:5000/api/users').then(res => {
       setList(res.data)
     })
   }, [])
