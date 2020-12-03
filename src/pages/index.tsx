@@ -16,7 +16,7 @@ const Home = (props: any) => {
         {list.map((item: any, i: number) => {
           return (
             <li key={i}>
-              {item.name} -- {item.age}
+              {item.age} -- {item.name} -- {item.age}
             </li>
           );
         })}
