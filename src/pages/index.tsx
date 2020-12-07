@@ -11,7 +11,7 @@ const Home = (props: any) => {
   }, []);
   return (
     <div>
-      <h2>用户列表</h2>
+      <h2>用户列表 2020-12-07</h2>
       <ul>
         {list.map((item: any, i: number) => {
           return (
